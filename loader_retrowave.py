@@ -14,8 +14,8 @@ Preview in Blender: Scripting tab -> Open this file -> Run Script, then look
 through the camera (Numpad 0) and play (Space).
 Render the video (2D), or the side-by-side 3D version (3840x1080, full SBS,
 for 3D movies: the grid and the disc go into the distance, the bar floats in front):
-    blender -b -P loader_retrowave.py -- retrowave.mp4
-    blender -b -P loader_retrowave.py -- retrowave-sbs.mp4 --sbs
+    blender -b -P loader_retrowave.py -- retrowave.mp4 --sbs      # the one shipped
+    blender -b -P loader_retrowave.py -- retrowave-2d.mp4
 """
 import contextlib
 import math

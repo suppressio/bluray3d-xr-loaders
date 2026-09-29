@@ -18,13 +18,14 @@ versions; written for Blender 5).
 ## Render
 
 ```console
-blender -b -P loader_retrowave.py -- retrowave-sbs.mp4 --sbs
-blender -b -P loader_retrowave.py -- retrowave.mp4
+blender -b -P loader_retrowave.py -- retrowave.mp4 --sbs
+blender -b -P loader_retrowave.py -- retrowave-2d.mp4
 blender -b -P loader_simple.py -- simple.mp4
 ```
 
-The program ships `retrowave-sbs.mp4` as `loaders/retrowave-sbs.mp4`: one
-side-by-side file serves 3D movies as it is and 2D movies with its left eye.
+The program ships them as `loaders/retrowave.mp4` (the side-by-side one: 3D
+movies show it in 3D, 2D movies its left eye) and `loaders/simple.mp4`, chosen
+with `--loader retrowave` (the default) or `--loader simple`.
 
 To look at a scene or change it: open Blender, Scripting tab, open the script,
 Run Script, then look through the camera (Numpad 0) and play (Space).
