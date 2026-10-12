@@ -1,3 +1,5 @@
+🌐 **English** | [Italiano](README.it.md)
+
 # bluray3d-xr loaders
 
 Loading animations for [bluray3d-xr-glasses-linux](https://github.com/suppressio/bluray3d-xr-glasses-linux):
